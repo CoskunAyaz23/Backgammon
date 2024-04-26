@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86563A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="382dp"
+        android:layout_height="36dp"
+        android:text="When TWO PLAYERS playing the game, the score wont be a problem any more. This app will store the score securely."
+        android:textColor="#F1EEEE"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:hint="Player 1"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:hint="Player 2"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="380dp"
+        android:layout_height="53dp"
+        android:background="#8A5B60"
+        android:backgroundTint="#706E6E"
+        android:text="Start Game"
+        android:textColorLink="#673AB7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#706E6E"
+        android:enabled="false"
+        android:text="Player Name"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#706E6E"
+        android:enabled="false"
+        android:text="Player Name"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/backgammon"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
